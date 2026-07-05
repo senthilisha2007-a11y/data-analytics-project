@@ -1,24 +1,32 @@
 Data Analytics Project
+Overview
+This project demonstrates three fundamental Data Analytics tasks using Python.
 
- Overview
-This repository contains Python Data Analytics projects including:
-- Web Scraping
-- Exploratory Data Analysis (EDA)
-- Data Visualization
+Task 1 - Web Scraping
+- Scraped quotes from a website using Requests and BeautifulSoup.
+- Saved the data into a CSV file.
+
+Task 2 - Exploratory Data Analysis (EDA)
+- Loaded the dataset using Pandas.
+- Checked missing values and duplicates.
+- Analyzed authors and quote distribution.
+
+Task 3 - Data Visualization
+- Created a bar chart of the Top 10 Authors using Matplotlib.
 
 Technologies Used
 - Python
 - Pandas
-- Matplotlib
 - Requests
 - BeautifulSoup
+- Matplotlib
 
 Files
-- task1.py - Web Scraping
-- task2.py - Exploratory Data Analysis
-- task3.py - Data Visualization
-- quotes_dataset.csv - Dataset
-- top_authors_chart.png - Output Chart
+- web_scraping.py
+- eda_analysis.py
+- data_visualization.py
+- quotes_dataset.csv
+- top_authors_chart.png
 
-Author 
+Author
 Ravalisha S
